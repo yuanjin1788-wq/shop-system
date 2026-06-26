@@ -1,0 +1,23 @@
+# 微信小程序
+/miniapp/node_modules/
+/miniapp/.project.config.json.bak
+
+# 通用
+node_modules/
+*.log
+.DS_Store
+Thumbs.db
+
+# 编译产物
+dist/
+build/
+*.min.js
+*.min.wxss
+
+# 环境配置（不要提交包含密钥的文件）
+.env
+.env.local
+.env.*.local
+
+# 上传产物
+upload/
